@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-img {
+    width: 80px;
+    height: 80px;
+}
+
+.nav-menu {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header {
+    background-image: url("images/security_3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+/* .banner-left,
+.banner-right {
+    border: 3px solid white;
+} */
+
+/* body {
+    background-color: aqua;
+} */
+
+.banner-left {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.banner-right {
+    height: 400px;
+}
+
+.banner-img {
+    height: 100%;
+}
+
+.badge {
+    width: 250px;
+}
+
+.award-badges {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.award-title {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.award-section {
+    margin-top: 50px;
+}
+
+.service-title {
+    text-align: center;
+    font-size: 40px;
+}
+
+.service-title-div {
+    margin-bottom: 30px;
+}
+
+.service-desc {
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.img-underline {
+    display: block;
+    height: 60px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services-container {
+    margin-top: 50px;
+}
+
+.card {
+    width: 340px;
+    height: 340px;
+    text-align: center;
+    border: 3px solid rgb(103, 90, 223);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.cards {
+    display: flex;
+    width: 1200px;
+    gap: 20px;
+    flex-wrap: wrap;
+    /* border: 2px dotted mediumaquamarine; */
+    margin: auto;
+    justify-content: center;
+}
+
+.card-ico {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.card-desc {
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.card-title {
+    font-size: 35px;
+}

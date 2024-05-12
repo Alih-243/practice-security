@@ -1,0 +1,53 @@
+@media only screen and (max-width: 576px) {
+    .banner-container {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .nav-menu {
+        font-size: 15px;
+    }
+
+    .banner-right {
+        width: auto;
+    }
+
+    .award-title {
+        font-size: 30px;
+    }
+
+    .award-badges {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        width: 100%;
+    }
+
+    .award-section {
+        padding: 10px;
+    }
+
+    .card {
+        width: 80%;
+        height: auto;
+    }
+
+    .cards {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 10px;
+        align-items: center;
+        width: 100%;
+        /* padding: 10px; */
+    }
+
+    .service-title {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .badge {
+        width: 90%;
+    }
+}
